@@ -1,0 +1,10 @@
+<div class="question">
+  <div class="title">
+    Гру закінчено з результатом у <%= @game.current_score %> балів
+  </div>
+  <div class="options">
+      <%= link_to 'Повторити', start_path, method: 'get', class: 'option' %>
+      <%= link_to 'На головну', root_path, method: 'get', class: 'option' %>
+  </div>
+
+</div>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails geo: development" uuid="16591185-b458-4a00-b6e4-a0dd23585919">
+      <auth-required>false</auth-required>
+    </data-source>
+    <data-source name="Rails geo: test" uuid="20086670-7b2e-497a-a0f5-0d373cfe3bd1" />
+  </component>
+</project>

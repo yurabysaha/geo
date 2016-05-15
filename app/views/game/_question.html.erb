@@ -1,0 +1,12 @@
+<div class="question">
+  <div class="title">
+    <%= @question.title %>
+  </div>
+  <div class="options">
+    <%= link_to @question.A, start_path(:answer => @question.A), method: 'get', remote: true, class: 'option' %>
+    <%= link_to @question.B, start_path(:answer => @question.B), method: 'get', remote: true, class: 'option' %>
+    <%= link_to @question.C, start_path(:answer => @question.C), method: 'get', remote: true, class: 'option' %>
+    <%= link_to @question.D, start_path(:answer => @question.D), method: 'get', remote: true, class: 'option' %>
+  </div>
+
+</div>
